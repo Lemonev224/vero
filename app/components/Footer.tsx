@@ -20,7 +20,7 @@ export default function Footer() {
             {/* Brand Column */}
             <div className="lg:col-span-5">
               <img 
-                src="/vero_logo_black.png" 
+                src="/Vero_logo_black.png" 
                 alt="VERO Agency" 
                 className="h-10 sm:h-12 md:h-14 w-auto mb-4 sm:mb-6"
               />
@@ -139,7 +139,7 @@ export default function Footer() {
         <div className="border-t border-gray-100 py-6 sm:py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest">
             <p>
-              © 2024 VERO SOLUTIONS. ALL RIGHTS RESERVED.
+              © 2026 VERO SOLUTIONS. ALL RIGHTS RESERVED.
             </p>
             <div className="flex items-center gap-6 sm:gap-8">
               <a href="#" className="hover:text-orange-400 transition-colors">
