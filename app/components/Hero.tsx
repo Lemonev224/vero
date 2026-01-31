@@ -584,7 +584,7 @@ export default function Hero() {
                     id="brief" 
                     name="brief" 
                     placeholder="Tell us about your goals..." 
-                    rows="3"
+
                   ></textarea>
                 </div>
 
