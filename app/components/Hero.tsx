@@ -118,115 +118,6 @@ export default function Hero() {
         </div>
       </section>
 
-
-          <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-white">
-      {/* Subtle Orange/Pink Accent Blurs */}
-      <div 
-        className="absolute top-[10%] left-[-5%] w-[500px] h-[500px] -z-10 blur-3xl opacity-40 pointer-events-none"
-        style={{ background: 'radial-gradient(circle, rgba(255, 182, 193, 0.3) 0%, rgba(255, 255, 255, 0) 70%)' }}
-      />
-      <div 
-        className="absolute top-[40%] right-[-5%] w-[450px] h-[450px] -z-10 blur-3xl opacity-35 pointer-events-none"
-        style={{ background: 'radial-gradient(circle, rgba(254, 215, 170, 0.3) 0%, rgba(255, 255, 255, 0) 70%)' }}
-      />
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
-        {/* Header */}
-        <div className="text-center mb-16 sm:mb-20 lg:mb-24">
-          <p className="font-[--font-playfair] italic text-gray-400 text-base sm:text-lg mb-4 sm:mb-6">
-            Thoughtful Design. Intentional Results.
-          </p>
-          <h2 
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 sm:mb-8 leading-[1.1]"
-            style={{ fontFamily: 'var(--font-coolvetica), sans-serif' }}
-          >
-            What Our{' '}
-            <span className="font-[--font-playfair] italic font-normal text-gray-400">
-              Clients Say
-            </span>
-          </h2>
-          <div className="w-20 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-orange-200 to-transparent mx-auto"></div>
-        </div>
-
-        {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 sm:gap-12 lg:gap-16 xl:gap-20">
-          {/* Testimonial 1 */}
-          <div className="relative group">
-            <span 
-              className="font-[--font-playfair] text-7xl sm:text-8xl absolute -top-8 sm:-top-12 -left-2 sm:-left-4 text-orange-100 select-none opacity-50 group-hover:opacity-80 transition-opacity duration-500"
-            >
-              "
-            </span>
-            <div className="relative z-10">
-              <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 mb-8 sm:mb-10">
-                The team at Vero redefined our digital presence. They didn't just build a website; they created a cohesive brand experience that has doubled our conversion rate in months.
-              </p>
-              <div className="flex flex-col border-l-2 border-orange-200 pl-4">
-                <span className="font-bold text-sm tracking-widest uppercase mb-1 text-black">
-                  Marcus Thorne
-                </span>
-                <span className="text-xs font-medium text-gray-400 uppercase tracking-widest">
-                  CEO, Lumina Creative
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* Testimonial 2 */}
-          <div className="relative group md:mt-8 lg:mt-12">
-            <span 
-              className="font-[--font-playfair] text-7xl sm:text-8xl absolute -top-8 sm:-top-12 -left-2 sm:-left-4 text-pink-100 select-none opacity-50 group-hover:opacity-80 transition-opacity duration-500"
-            >
-              "
-            </span>
-            <div className="relative z-10">
-              <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 mb-8 sm:mb-10">
-                Their attention to detail in the strategy phase was remarkable. Every design choice was intentional and aligned perfectly with our long-term business goals.
-              </p>
-              <div className="flex flex-col border-l-2 border-orange-200 pl-4">
-                <span className="font-bold text-sm tracking-widest uppercase mb-1 text-black">
-                  Sarah Jenkins
-                </span>
-                <span className="text-xs font-medium text-gray-400 uppercase tracking-widest">
-                  Director of Growth, Nexus
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* Testimonial 3 */}
-          <div className="relative group">
-            <span 
-              className="font-[--font-playfair] text-7xl sm:text-8xl absolute -top-8 sm:-top-12 -left-2 sm:-left-4 text-gray-100 select-none opacity-50 group-hover:opacity-80 transition-opacity duration-500"
-            >
-              "
-            </span>
-            <div className="relative z-10">
-              <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 mb-8 sm:mb-10">
-                Working with them was a breath of fresh air. High-performance, accessible, and stunningly beautiful code. They are truly the best in the modern web industry.
-              </p>
-              <div className="flex flex-col border-l-2 border-orange-200 pl-4">
-                <span className="font-bold text-sm tracking-widest uppercase mb-1 text-black">
-                  David Chen
-                </span>
-                <span className="text-xs font-medium text-gray-400 uppercase tracking-widest">
-                  Founder, Stratos Tech
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="mt-16 sm:mt-20 lg:mt-24 text-center">
-          <button className="inline-flex items-center gap-3 px-7 sm:px-8 py-3 sm:py-4 border-2 border-black rounded-full text-xs sm:text-sm font-bold tracking-[0.2em] uppercase hover:bg-black hover:text-white transition-all duration-300 group">
-            <span>View Case Studies</span>
-            <span className="material-symbols-outlined text-sm group-hover:translate-x-0.5 transition-transform">east</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
       {/* Process Section */}
       <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden bg-white">
         {/* Subtle Orange Accent Blurs */}
@@ -391,29 +282,21 @@ export default function Hero() {
 
           {/* Portfolio Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 sm:gap-y-20 lg:gap-x-12 lg:gap-y-20">
-            {/* Project 1 */}
+            {/* Project 1 - Zenith Jujitsu */}
             <div className="group cursor-pointer">
               <div className="relative aspect-[16/10] bg-gray-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-pink-500/10">
-                <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700">
-                  <svg className="w-full h-full opacity-10" preserveAspectRatio="none" viewBox="0 0 100 100">
-                    <defs>
-                      <pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
-                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                      </pattern>
-                    </defs>
-                    <rect width="100" height="100" fill="url(#grid)" />
-                  </svg>
-                  <span className="absolute text-gray-300 font-[--font-playfair] italic text-base sm:text-lg">
-                    Case Study 01
-                  </span>
-                </div>
+                <img 
+                  src="/zenith_project.png" 
+                  alt="Zenith Jujitsu Brand Identity - Logo variations and design system"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Lumina Brand Identity
+                  Zenith Jujitsu Brand Identity
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Branding • Strategy
+                  Branding • Logo Design
                 </p>
               </div>
             </div>
@@ -706,7 +589,7 @@ export default function Hero() {
                     id="brief" 
                     name="brief" 
                     placeholder="Tell us about your goals..." 
-                    
+
                   ></textarea>
                 </div>
 
