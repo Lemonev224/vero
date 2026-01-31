@@ -38,7 +38,9 @@ export default function Hero() {
           <div className="flex justify-center px-4 mb-8 sm:mb-12">
             <button className="bg-white border-2 border-gray-900 px-6 sm:px-7 py-2.5 sm:py-3 rounded-full text-xs font-bold tracking-widest uppercase flex items-center gap-2 hover:bg-gray-900 hover:text-white transition-all">
               START A PROJECT
-              <span className="material-symbols-outlined text-base">arrow_forward</span>
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
             </button>
           </div>
 
@@ -320,24 +322,21 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Project 3 */}
+            {/* Project 3 - Cystic Fibrosis Trust */}
             <div className="group cursor-pointer">
-              <div className="relative aspect-[16/10] bg-gray-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-pink-500/10">
-                <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700">
-                  <svg className="w-full h-full opacity-10" preserveAspectRatio="none" viewBox="0 0 100 100">
-                    <path d="M0 100 Q 50 0 100 100" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                  </svg>
-                  <span className="absolute text-gray-300 font-[--font-playfair] italic text-base sm:text-lg">
-                    Case Study 03
-                  </span>
-                </div>
+              <div className="relative aspect-[16/10] bg-yellow-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-yellow-500/10">
+                <img 
+                  src="/cf_project.png" 
+                  alt="Cystic Fibrosis Trust - Cycle4CF charity campaign design"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Apex SaaS Dashboard
+                  Cystic Fibrosis Trust
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  UI/UX Design • Product
+                  Social Media • Campaign Design
                 </p>
               </div>
             </div>
@@ -585,7 +584,7 @@ export default function Hero() {
                     id="brief" 
                     name="brief" 
                     placeholder="Tell us about your goals..." 
-
+                    rows="3"
                   ></textarea>
                 </div>
 
