@@ -301,25 +301,21 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 2 - Create Without Limits */}
             <div className="group cursor-pointer md:mt-16 lg:mt-24">
               <div className="relative aspect-[16/10] bg-gray-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-orange-500/10">
-                <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700">
-                  <svg className="w-full h-full opacity-10" preserveAspectRatio="none" viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="0.5" />
-                  </svg>
-                  <span className="absolute text-gray-300 font-[--font-playfair] italic text-base sm:text-lg">
-                    Case Study 02
-                  </span>
-                </div>
+                <img 
+                  src="/cwl_project.png" 
+                  alt="Create Without Limits - Southbank Centre vibrant design showcase"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Nova Digital Ecosystem
+                  Create Without Limits
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Web Design • Development
+                  Graphic Design • Campaign
                 </p>
               </div>
             </div>
