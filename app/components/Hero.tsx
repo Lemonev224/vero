@@ -341,24 +341,21 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Project 4 */}
+            {/* Project 4 - Web Development */}
             <div className="group cursor-pointer md:mt-16 lg:mt-24">
-              <div className="relative aspect-[16/10] bg-gray-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-orange-500/10">
-                <div className="absolute inset-0 flex items-center justify-center opacity-40 group-hover:scale-105 transition-transform duration-700">
-                  <svg className="w-full h-full opacity-10" preserveAspectRatio="none" viewBox="0 0 100 100">
-                    <rect x="25" y="25" width="50" height="50" fill="none" stroke="currentColor" strokeWidth="0.5" transform="rotate(45 50 50)" />
-                  </svg>
-                  <span className="absolute text-gray-300 font-[--font-playfair] italic text-base sm:text-lg">
-                    Case Study 04
-                  </span>
-                </div>
+              <div className="relative aspect-[16/10] bg-gray-50 rounded-3xl overflow-hidden mb-6 sm:mb-8 ring-1 ring-gray-200/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-green-500/10">
+                <img 
+                  src="/websites_project.png" 
+                  alt="Web Development - StudyAI and Mend SaaS platforms showcase"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Horizon E-Commerce
+                  SaaS Platform Development
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Development • Growth
+                  Web Development • UI/UX
                 </p>
               </div>
             </div>
@@ -584,7 +581,7 @@ export default function Hero() {
                     id="brief" 
                     name="brief" 
                     placeholder="Tell us about your goals..." 
-
+                   
                   ></textarea>
                 </div>
 
