@@ -143,7 +143,7 @@ export default function Hero() {
 
       {/* Services / Features Section */}
 <AnimatedSection 
-  className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 pb-16 sm:pt-20 sm:pb-24 relative bg-white z-20" 
+  className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-16 sm:pt-20 sm:pb-24 relative bg-white z-20" 
   id="services"
 >
         <div className="relative z-10">
