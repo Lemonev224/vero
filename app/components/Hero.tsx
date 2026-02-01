@@ -7,7 +7,7 @@ import { useRef } from 'react';
 
 // Animation variants
 const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 60 },
+  hidden: { opacity: 0, y: 20 },
   visible: { 
     opacity: 1, 
     y: 0,
@@ -119,10 +119,12 @@ export default function Hero() {
           </motion.div>
 
           {/* Phone Image */}
-          <motion.div 
-            className="relative w-full max-w-2xl mx-auto h-[500px] sm:h-[600px] md:h-[650px] -mb-24 sm:-mb-32 md:-mb-36"
-            variants={fadeInUp}
-          >
+ <motion.div 
+  // REMOVE: -mb-24 sm:-mb-32 md:-mb-36
+  // ADD: z-30 (to stay above the white section)
+  className="relative w-full max-w-2xl mx-auto h-[500px] sm:h-[600px] md:h-[650px] z-30"
+  variants={fadeInUp}
+>
             <div className="relative w-full h-full">
               <img 
                 src="/phone-hand.png" 
@@ -144,7 +146,12 @@ export default function Hero() {
       </section>
 
       {/* Services / Features Section */}
-      <AnimatedSection className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24 relative bg-white" id="services">
+      <AnimatedSection 
+  // 1. Increased pt-16 to pt-48 (and sm:pt-64) to create a "safe zone" for the phone animation
+  // 2. Kept bg-white to ensure it covers the gradient cutoff on large screens
+  className="max-w-7xl mx-auto px-4 sm:px-6 pt-48 pb-16 sm:pt-64 sm:pb-24 relative bg-white z-20" 
+  id="services"
+>
         <div className="relative z-10">
           <motion.div 
             className="grid md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-start mb-20 sm:mb-32"
