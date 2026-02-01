@@ -1,5 +1,6 @@
 import { Inter, Playfair_Display, Outfit } from 'next/font/google';
 import './globals.css';
+import { Metadata } from 'next';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -16,6 +17,14 @@ const outfit = Outfit({
   subsets: ['latin'],
   variable: '--font-outfit',
 });
+
+export const metadata: Metadata = {
+  title: 'Vero',
+  description: 'Welcome to Vero Design Studio. We create thoughtful digital experiences.',
+    icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 export default function RootLayout({
   children,

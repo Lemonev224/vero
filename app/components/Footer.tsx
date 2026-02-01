@@ -66,57 +66,25 @@ export default function Footer() {
               </h4>
               <ul className="space-y-3 sm:space-y-4">
                 <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
+                  <a href="#services" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
                     Visual Identity
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
+                  <a href="#services" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
                     Web Development
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
+                  <a href="#services" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
                     App Design
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
-                    Strategy & Growth
-                  </a>
-                </li>
               </ul>
             </div>
 
-            {/* Company Column */}
-            <div className="lg:col-span-2">
-              <h4 className="text-xs font-bold uppercase tracking-widest mb-6 sm:mb-8 text-black">
-                Company
-              </h4>
-              <ul className="space-y-3 sm:space-y-4">
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
-                    Our Work
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
-                    Careers
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-sm text-gray-600 hover:text-orange-400 transition-colors">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
 
+            
             {/* New Projects Column */}
             <div className="lg:col-span-3">
               <h4 className="text-xs font-bold uppercase tracking-widest mb-6 sm:mb-8 text-black">
@@ -126,10 +94,10 @@ export default function Footer() {
                 Let's build something remarkable together.
               </p>
               <a 
-                href="mailto:hello@veroagency.com" 
+                href="mailto:contact@verodigital.uk" 
                 className="text-sm font-medium text-black border-b-2 border-orange-400 hover:text-orange-400 transition-colors inline-block"
               >
-                hello@veroagency.com
+                contact@verodigital.uk
               </a>
             </div>
           </div>
@@ -138,18 +106,12 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-100 py-6 sm:py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest">
-            <p>
-              © 2026 VERO SOLUTIONS. ALL RIGHTS RESERVED.
-            </p>
             <div className="flex items-center gap-6 sm:gap-8">
-              <a href="#" className="hover:text-orange-400 transition-colors">
+              <a href="privacy-policy" className="hover:text-orange-400 transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-orange-400 transition-colors">
+              <a href="terms" className="hover:text-orange-400 transition-colors">
                 Terms of Service
-              </a>
-              <a href="#" className="hover:text-orange-400 transition-colors">
-                Cookies
               </a>
             </div>
           </div>

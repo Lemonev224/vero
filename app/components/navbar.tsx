@@ -15,17 +15,17 @@ export default function Navbar() {
 
           {/* Center - Nav links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-sm text-gray-600 hover:text-black transition">Home</a>
-            <a href="#" className="text-sm text-gray-600 hover:text-black transition">Services</a>
-            <a href="#" className="text-sm text-gray-600 hover:text-black transition">Features</a>
-            <a href="#" className="text-sm text-gray-600 hover:text-black transition">Blog</a>
-            <a href="#" className="text-sm text-gray-600 hover:text-black transition">Pricing</a>
+            <a href="#hero" className="text-sm text-gray-600 hover:text-black transition">Home</a>
+            <a href="#services" className="text-sm text-gray-600 hover:text-black transition">Services</a>
+            <a href="#process" className="text-sm text-gray-600 hover:text-black transition">Process</a>
+            <a href="#portfolio" className="text-sm text-gray-600 hover:text-black transition">Projects</a>
+            <a href="#faq" className="text-sm text-gray-600 hover:text-black transition">FAQ</a>
           </div>
 
           {/* Right - CTA button */}
-          <button className="hidden md:block px-6 py-2 text-xs font-medium text-black bg-transparent border border-gray-300 rounded-full hover:bg-gray-50 transition">
-            TRY IT FOR FREE →
-          </button>
+      <a href="#contact-form">    <button className="hidden md:block px-6 py-2 text-xs font-medium text-black bg-transparent border border-gray-300 rounded-full hover:bg-gray-50 transition">
+            START A PROJECT →
+          </button></a>
 
           {/* Right - Menu dots (mobile) */}
           <div className="md:hidden flex flex-col gap-1">
