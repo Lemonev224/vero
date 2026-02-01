@@ -410,10 +410,10 @@ export default function Hero() {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Zenith Jujitsu Brand Identity
+                  Branding • Logo Design
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Branding • Logo Design
+                  Zenith Jujitsu Brand Identity
                 </p>
               </div>
             </motion.div>
@@ -429,10 +429,10 @@ export default function Hero() {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Create Without Limits
+                  Brand Recognition • Promotion
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Graphic Design • Campaign
+                  Create Without Limits Graphic Design Campaign
                 </p>
               </div>
             </motion.div>
@@ -448,10 +448,10 @@ export default function Hero() {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  Cystic Fibrosis Trust
+                  Social Media • Campaign Design
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Social Media • Campaign Design
+                  Cystic Fibrosis Trust
                 </p>
               </div>
             </motion.div>
