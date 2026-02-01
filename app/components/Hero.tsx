@@ -467,10 +467,10 @@ export default function Hero() {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-2 tracking-tight group-hover:translate-x-1 transition-transform duration-300">
-                  SaaS Platform Development
+                  Full Stack Web Development • UI/UX
                 </h3>
                 <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-widest">
-                  Web Development • UI/UX
+                  SaaS Platform Development
                 </p>
               </div>
             </motion.div>
